@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " g ",
+    "gag",
+    "sss"
+  ],
+  "key": {
+    "g": "minecraft:copper_ingot",
+    "a": "minecraft:bricks",
+    "s": "minecraft:smooth_stone"
+  },
+  "result": {
+    "id": "minecraft:stonecutter"
+  }
+}

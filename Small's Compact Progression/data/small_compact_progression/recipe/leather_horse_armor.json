@@ -8,7 +8,7 @@
   ],
   "key": {
     "l": "minecraft:leather",
-    "s": "minecraft:wool"
+    "s": "#minecraft:wool"
   },
   "result": {
     "id": "minecraft:leather_horse_armor"

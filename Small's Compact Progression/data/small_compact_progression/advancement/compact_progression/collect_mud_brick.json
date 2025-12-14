@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_stone_brick",
+  "display": {
+    "icon": {
+      "id": "minecraft:mud_bricks"
+    },
+    "title": "Mud Bricks Pun TBD",
+    "description": "Craft mud bricks with sandstone and stone bricks",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_mud_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mud_bricks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_mud_bricks"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

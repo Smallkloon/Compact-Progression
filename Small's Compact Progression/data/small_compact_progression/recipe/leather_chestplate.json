@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "s s",
+    "psp",
+    "ppp"
+  ],
+  "key": {
+    "p": "minecraft:leather",
+    "s": "minecraft:rabbit_hide"
+  },
+  "result": {
+    "id": "minecraft:leather_chestplate"
+  }
+}

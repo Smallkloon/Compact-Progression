@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " b ",
+    "gsg",
+    "sss"
+  ],
+  "key": {
+    "g": "minecraft:lapis_block",
+    "b": "minecraft:book",
+    "s": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "minecraft:enchanting_table"
+  }
+}

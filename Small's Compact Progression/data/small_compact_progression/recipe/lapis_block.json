@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " l ",
+    "lel",
+    " l "
+  ],
+  "key": {
+    "l": "minecraft:lapis_lazuli",
+    "e": "minecraft:experience_bottle"
+  },
+  "result": {
+    "id": "minecraft:lapis_block"
+  }
+}

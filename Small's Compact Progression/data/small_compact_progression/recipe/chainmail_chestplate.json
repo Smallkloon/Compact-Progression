@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "s s",
+    "psp",
+    "ppp"
+  ],
+  "key": {
+    "p": "minecraft:rabbit_hide",
+    "s": "minecraft:shears"
+  },
+  "result": {
+    "id": "minecraft:chainmail_chestplate"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_furnace",
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": "Go Fish!",
+    "description": "Craft a fishing rod",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_fishing_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fishing_rod"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_fishing_rod"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

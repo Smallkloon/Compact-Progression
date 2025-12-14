@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:copper_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:coal_block",
+    "minecraft:magma_block"
+  ],
+  "result": {
+    "id": "minecraft:blaze_powder"
+  }
+}

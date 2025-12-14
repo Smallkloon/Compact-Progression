@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_copper",
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_pickaxe"
+    },
+    "title": "Getting an Upgrade+",
+    "description": "Obtain a copper pickaxe",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_copper_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_copper_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

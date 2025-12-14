@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_copper_pickaxe",
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_lazuli"
+    },
+    "title": "Violets are Blue",
+    "description": "Mine some lapis lazuli",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_lapis_lazuli": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_lazuli"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_lapis_lazuli"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

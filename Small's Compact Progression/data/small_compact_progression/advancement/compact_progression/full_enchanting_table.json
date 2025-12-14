@@ -1,0 +1,27 @@
+{
+  "parent": "small_compact_progression:compact_progression/enchant_item",
+  "criteria": {
+    "enchanted_item": {
+      "trigger": "minecraft:enchanted_item"
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "Fully upgrade an enchanting table with bookshelves",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bookshelf"
+    },
+    "title": "Librarian",
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "enchanted_item",
+      "impossible"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

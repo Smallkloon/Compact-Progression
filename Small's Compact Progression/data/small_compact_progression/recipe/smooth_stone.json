@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "minecraft:mud_bricks",
+  "result": {
+    "id": "minecraft:smooth_stone"
+  },
+  "experience": 1,
+  "cookingtime": 2400
+}

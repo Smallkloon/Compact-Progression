@@ -2,16 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "fpp",
-    " sc",
-    " b "
+    "ppp",
+    "fsc",
+    " s "
   ],
   "key": {
     "p": "#minecraft:wooden_tool_materials",
     "f": "minecraft:flint",
     "s": "minecraft:stick",
-    "c": "minecraft:charcoal",
-    "b": "minecraft:stick"
+    "c": "minecraft:clay"
   },
   "result": {
     "id": "minecraft:wooden_pickaxe"

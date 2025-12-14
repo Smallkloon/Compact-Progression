@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "sbs",
+    "b b",
+    "sss"
+  ],
+  "key": {
+    "b": "minecraft:stone_bricks",
+    "s": "minecraft:sandstone"
+  },
+  "result": {
+    "id": "minecraft:mud_bricks"
+  }
+}

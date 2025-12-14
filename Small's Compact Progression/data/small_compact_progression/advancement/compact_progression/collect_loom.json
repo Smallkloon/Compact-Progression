@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_crafting_table",
+  "display": {
+    "icon": {
+      "id": "minecraft:loom"
+    },
+    "title": "Web of Lies",
+    "description": "Craft a loom",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_loom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:loom"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_loom"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_mud_brick",
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace"
+    },
+    "title": "Copper Age",
+    "description": "Combine seven mud bricks to create a furnace",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:furnace"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_furnace"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

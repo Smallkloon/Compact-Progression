@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " g ",
+    "aga",
+    "sss"
+  ],
+  "key": {
+    "g": "minecraft:gold_ingot",
+    "a": "minecraft:amethyst_shard",
+    "s": "minecraft:smooth_stone"
+  },
+  "result": {
+    "id": "minecraft:brewing_stand"
+  }
+}

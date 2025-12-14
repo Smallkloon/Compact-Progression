@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_mud_brick",
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_stone"
+    },
+    "title": "So Smooth",
+    "description": "Smelt mud bricks in a furnace to create smooth stone",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_smooth_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_stone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_smooth_stone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

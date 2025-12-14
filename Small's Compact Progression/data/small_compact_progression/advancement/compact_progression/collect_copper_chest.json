@@ -1,5 +1,5 @@
 {
-  "parent": "small_compact_progression:compact_progression/collect_chest",
+  "parent": "small_compact_progression:compact_progression/collect_copper",
   "display": {
     "icon": {
       "id": "minecraft:copper_chest"

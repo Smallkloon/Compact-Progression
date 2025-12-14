@@ -1,0 +1,46 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_wooden_pickaxe",
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_shovel"
+    },
+    "title": "Full House",
+    "description": "Collect a complete set of six wooden tools",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_tools": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe"
+          },
+          {
+            "items": "minecraft:wooden_axe"
+          },
+          {
+            "items": "minecraft:wooden_shovel"
+          },
+          {
+            "items": "minecraft:wooden_hoe"
+          },
+          {
+            "items": "minecraft:wooden_sword"
+          },
+          {
+            "items": "minecraft:wooden_spear"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_tools"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  s",
+    " sr",
+    "s g"
+  ],
+  "key": {
+    "s": "minecraft:stick",
+    "r": "minecraft:string",
+    "g": "minecraft:glass"
+  },
+  "result": {
+    "id": "minecraft:copper_hoe"
+  }
+}

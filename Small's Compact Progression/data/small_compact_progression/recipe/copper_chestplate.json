@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "s s",
+    "psp",
+    "ppp"
+  ],
+  "key": {
+    "p": "minecraft:copper_ingot",
+    "s": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:copper_chestplate"
+  }
+}

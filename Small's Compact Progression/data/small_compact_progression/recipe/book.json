@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
+  "category": "misc",
   "ingredients": [
     "minecraft:rabbit_hide",
     "minecraft:paper",
     "minecraft:paper",
-    "minecraft:rabbit_hide"
+    "minecraft:charcoal"
   ],
   "result": {
     "id": "minecraft:book"

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "sps",
+    "p p",
+    "p p"
+  ],
+  "key": {
+    "p": "minecraft:leather",
+    "s": "minecraft:rabbit_hide"
+  },
+  "result": {
+    "id": "minecraft:leather_leggings"
+  }
+}
