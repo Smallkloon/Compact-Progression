@@ -8,7 +8,7 @@
   ],
   "key": {
     "l": "#minecraft:logs",
-    "e": "minecraft:leather"
+    "f": "minecraft:leather"
   },
   "result": {
     "id": "minecraft:chest"
