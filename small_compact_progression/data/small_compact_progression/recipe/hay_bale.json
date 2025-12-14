@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "www",
+    "sfs",
+    "www"
+  ],
+  "key": {
+    "w": "minecraft:wheat",
+    "s": "minecraft:string",
+    "f": "minecraft:feather"
+  },
+  "result": {
+    "id": "minecraft:hay_bale"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ddd",
+    "bcb",
+    "rcr"
+  ],
+  "key": {
+    "d": "minecraft:cobbled_deepslate",
+    "b": "minecraft:bone_block",
+    "c": "minecraft:coal_block",
+    "r": "minecraft:bricks"
+  },
+  "result": {
+    "id": "minecraft:smoker"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:flint"
+    },
+    "title": "Flint Pun TBD",
+    "description": "Collect flint from gravel, used in early game carpentry",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flint"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_flint"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

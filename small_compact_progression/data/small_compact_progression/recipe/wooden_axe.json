@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "pf",
+    "sp"
+  ],
+  "key": {
+    "p": "#minecraft:wooden_tool_materials",
+    "f": "minecraft:flint",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:wooden_axe"
+  }
+}

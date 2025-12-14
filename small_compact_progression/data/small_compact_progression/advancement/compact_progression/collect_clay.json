@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_flint",
+  "display": {
+    "icon": {
+      "id": "minecraft:clay_ball"
+    },
+    "title": "Clay is Perfectly Balanced",
+    "description": "Collect clay from the river",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:clay_ball"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_clay"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

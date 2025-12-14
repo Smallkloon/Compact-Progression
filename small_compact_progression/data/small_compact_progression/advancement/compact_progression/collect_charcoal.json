@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_campfire",
+  "display": {
+    "icon": {
+      "id": "minecraft:charcoal"
+    },
+    "title": "100% Natural",
+    "description": "Burn a hay bale into charcoal using your campfire",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_charcoal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:charcoal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_charcoal"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

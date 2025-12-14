@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ccc",
+    "hch",
+    "ccc"
+  ],
+  "key": {
+    "c": "minecraft:coal",
+    "h": "minecraft:charcoal"
+  },
+  "result": {
+    "id": "minecraft:coal_block"
+  }
+}

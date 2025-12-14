@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#minecraft:logs",
+    "minecraft:clay",
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt"
+  ],
+  "result": {
+    "id": "minecraft:composter"
+  }
+} 
