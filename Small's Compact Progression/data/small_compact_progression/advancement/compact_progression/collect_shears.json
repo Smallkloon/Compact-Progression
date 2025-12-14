@@ -5,7 +5,7 @@
       "id": "minecraft:shears"
     },
     "title": "Don't Run!",
-    "description": "Purchase shears from a sheppard",
+    "description": "Purchase shears from a shepherd",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
