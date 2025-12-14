@@ -5,7 +5,7 @@
     "minecraft:wheat",
     "minecraft:wheat",
     "minecraft:wheat",
-    "#minecraft:planks"
+    "#minecraft:logs"
   ],
   "result": {
     "id": "minecraft:oak_wood"

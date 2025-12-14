@@ -1,7 +1,7 @@
 {
   "type": "minecraft:campfire_cooking",
   "category": "misc",
-  "ingredient": "minecraft:hay_bale",
+  "ingredient": "minecraft:hay_block",
   "result": {
     "id": "minecraft:charcoal"
   },

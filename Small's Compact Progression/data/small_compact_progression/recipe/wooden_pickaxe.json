@@ -11,7 +11,7 @@
     "f": "minecraft:flint",
     "s": "minecraft:stick",
     "c": "minecraft:charcoal",
-    "b": "minecraft:bone"
+    "b": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:wooden_pickaxe"

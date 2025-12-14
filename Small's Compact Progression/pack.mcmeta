@@ -46,7 +46,7 @@
 			"path": "recipe/charcoal.json"
 		}, {
 			"namespace": "minecraft",
-			"path": "recipe/hay_bale.json"
+			"path": "recipe/hay_block.json"
 		}, {
 			"namespace": "minecraft",
 			"path": "recipe/smoker.json"
