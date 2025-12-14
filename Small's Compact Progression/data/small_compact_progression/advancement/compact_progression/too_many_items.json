@@ -1,0 +1,25 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_shulker_box",
+  "display": {
+    "icon": {
+      "id": "minecraft:black_shulker_box"
+    },
+    "title": "Too Many Items",
+    "description": "Fill your inventory, offhand, and ender chest with shulker boxes, each containing 1,728 items",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

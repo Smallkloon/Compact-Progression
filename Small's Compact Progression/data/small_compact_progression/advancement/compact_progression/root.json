@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
+    },
+    "title": "Compact Progression",
+    "description": "Torchflower is Progression Mandatory!",
+    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_log"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

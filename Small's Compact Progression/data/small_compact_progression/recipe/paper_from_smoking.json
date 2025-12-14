@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "ingredient": "minecraft:sugar_cane",
+  "result": {
+    "id": "minecraft:paper"
+  },
+  "experience": 0.5,
+  "cookingtime": 300
+}

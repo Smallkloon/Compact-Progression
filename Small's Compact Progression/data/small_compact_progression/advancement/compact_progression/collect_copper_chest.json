@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_chest",
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_chest"
+    },
+    "title": "Almost Enough Items",
+    "description": "Craft a copper chest",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_copper_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chest"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_copper_chest"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

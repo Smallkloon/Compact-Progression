@@ -1,0 +1,32 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_ender_chest",
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": "Items? What Items?",
+    "description": "Obtain a shulker box",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_shulker_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shulker_box"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_shulker_box"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

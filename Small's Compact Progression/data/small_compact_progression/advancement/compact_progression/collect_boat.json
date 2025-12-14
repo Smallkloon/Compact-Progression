@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_leather",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": "On Your Mark...",
+    "description": "Craft a boat",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_oak_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_boat"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_oak_boat"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

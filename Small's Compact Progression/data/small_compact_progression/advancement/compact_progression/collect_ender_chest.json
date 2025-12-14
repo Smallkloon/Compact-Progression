@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_copper_chest",
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_chest"
+    },
+    "title": "Enough Items",
+    "description": "Obtain an ender chest",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_ender_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_chest"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_ender_chest"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

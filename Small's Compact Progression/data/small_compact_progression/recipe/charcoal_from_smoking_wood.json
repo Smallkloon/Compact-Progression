@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "ingredient": "minecraft:oak_wood",
+  "result": {
+    "id": "minecraft:charcoal"
+  },
+  "experience": 0.5,
+  "cookingtime": 600
+}

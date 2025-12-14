@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_flint",
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_axe"
+    },
+    "title": "Much Easier",
+    "description": "Craft a wooden axe to harvest logs without hurting your hands",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_axe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_axe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

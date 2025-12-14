@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ddd",
+    "bcb",
+    "rcr"
+  ],
+  "key": {
+    "d": "minecraft:stone_bricks",
+    "b": "minecraft:oak_wood",
+    "c": "minecraft:coal_block",
+    "r": "minecraft:bricks"
+  },
+  "result": {
+    "id": "minecraft:smoker"
+  }
+}

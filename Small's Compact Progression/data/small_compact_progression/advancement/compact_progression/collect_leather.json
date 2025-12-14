@@ -1,0 +1,32 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_campfire",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather"
+    },
+    "title": "Cow (?) Tipper",
+    "description": "Obtain 32 leather by killing cows or tanning rotten flesh",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather",
+            "count": 32
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_leather"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

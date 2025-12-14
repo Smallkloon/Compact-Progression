@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:rabbit_hide",
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:rabbit_hide"
+  ],
+  "result": {
+    "id": "minecraft:oak_boat"
+  }
+}

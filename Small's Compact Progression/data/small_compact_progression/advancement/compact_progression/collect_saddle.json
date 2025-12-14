@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_leather",
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": "Old Town Road",
+    "description": "Obtain a saddle, your one stop shop for all riding needs",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:saddle"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_saddle"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
