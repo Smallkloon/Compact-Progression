@@ -3,7 +3,7 @@
   "category": "building",
   "pattern": [
     "ddd",
-    "bcb",
+    "b b",
     "rcr"
   ],
   "key": {

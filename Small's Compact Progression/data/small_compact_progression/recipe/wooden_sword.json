@@ -10,7 +10,7 @@
     "p": "#minecraft:wooden_tool_materials",
     "f": "minecraft:flint",
     "s": "minecraft:stick",
-    "c": "minecraft:clay"
+    "c": "minecraft:clay_ball"
   },
   "result": {
     "id": "minecraft:wooden_sword"

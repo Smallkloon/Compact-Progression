@@ -148,7 +148,7 @@
 			"path": "recipe/leather_boots.json"
 		}, {
 			"namespace": "minecraft",
-			"path": "recipe/leather_horse_armour.json"
+			"path": "recipe/leather_horse_armor.json"
 		}, {
 			"namespace": "minecraft",
 			"path": "recipe/enchanting_table.json"
@@ -166,10 +166,7 @@
 			"path": "recipe/copper_boots.json"
 		}, {
 			"namespace": "minecraft",
-			"path": "recipe/copper_horse_armour.json"
-		}, {
-			"namespace": "minecraft",
-			"path": "recipe/copper_horse_armour.json"
+			"path": "recipe/copper_horse_armor.json"
 		}, {
 			"namespace": "minecraft",
 			"path": "recipe/copper_pickaxe.json"
@@ -223,10 +220,7 @@
 			"path": "recipe/iron_boots.json"
 		}, {
 			"namespace": "minecraft",
-			"path": "recipe/iron_horse_armour.json"
-		}, {
-			"namespace": "minecraft",
-			"path": "recipe/iron_horse_armour.json"
+			"path": "recipe/iron_horse_armor.json"
 		}, {
 			"namespace": "minecraft",
 			"path": "recipe/iron_pickaxe.json"
@@ -259,10 +253,7 @@
 			"path": "recipe/diamond_boots.json"
 		}, {
 			"namespace": "minecraft",
-			"path": "recipe/diamond_horse_armour.json"
-		}, {
-			"namespace": "minecraft",
-			"path": "recipe/diamond_horse_armour.json"
+			"path": "recipe/diamond_horse_armor.json"
 		}, {
 			"namespace": "minecraft",
 			"path": "recipe/diamond_pickaxe.json"
@@ -295,10 +286,7 @@
 			"path": "recipe/golden_boots.json"
 		}, {
 			"namespace": "minecraft",
-			"path": "recipe/golden_horse_armour.json"
-		}, {
-			"namespace": "minecraft",
-			"path": "recipe/golden_horse_armour.json"
+			"path": "recipe/golden_horse_armor.json"
 		}, {
 			"namespace": "minecraft",
 			"path": "recipe/golden_pickaxe.json"
@@ -362,6 +350,9 @@
 		}, {
 			"namespace": "minecraft",
 			"path": "recipe/lapis_block.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/loom.json"
 		}
 		]
   }

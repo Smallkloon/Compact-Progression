@@ -1,10 +1,9 @@
 {
   "type": "minecraft:smoking",
   "category": "misc",
-  "ingredient": "minecraft:clay",
+  "ingredient": "minecraft:clay_ball",
   "result": {
-    "id": "minecraft:brick",
-    "count": 2
+    "id": "minecraft:brick"
   },
   "experience": 0.5,
   "cookingtime": 300

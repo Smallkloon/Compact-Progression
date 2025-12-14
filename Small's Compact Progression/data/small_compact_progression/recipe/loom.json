@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "sss",
+    "sbs",
+    "wrw"
+  ],
+  "key": {
+    "s": "minecraft:string",
+    "b": "minecraft:bone_block",
+    "w": "minecraft:oak_wood",
+    "r": "minecraft:bricks"
+  },
+  "result": {
+    "id": "minecraft:loom"
+  }
+}
