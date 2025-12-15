@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " sh",
+    "slh",
+    " sh"
+  ],
+  "key": {
+    "l": "minecraft:rabbit_hide",
+    "s": "minecraft:stick",
+    "h": "minecraft:string"
+  },
+  "result": {
+    "id": "minecraft:bow"
+  }
+}

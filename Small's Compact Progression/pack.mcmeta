@@ -362,6 +362,12 @@
 		}, {
 			"namespace": "minecraft",
 			"path": "recipe/copper_ingot.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/bow.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/crossbow.json"
 		}
 	]
   }
