@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ccc",
+    "lfl",
+    "lll"
+  ],
+  "key": {
+    "l": "#minecraft:logs",
+    "c": "minecraft:copper_nugget",
+    "f": "minecraft:leather"
+  },
+  "result": {
+    "id": "minecraft:barrel"
+  }
+}

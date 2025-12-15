@@ -368,6 +368,27 @@
 		}, {
 			"namespace": "minecraft",
 			"path": "recipe/crossbow.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/smithing_table.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/barrel.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/blast_furnace.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/grindstone.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/fletching_table.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/cartography_table.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/gold_nugget_from_smelting.json"
 		}
 	]
   }
