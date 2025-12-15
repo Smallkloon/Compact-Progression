@@ -353,7 +353,16 @@
 		}, {
 			"namespace": "minecraft",
 			"path": "recipe/loom.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/smooth_quartz.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/gold_nugget.json"
+		}, {
+			"namespace": "minecraft",
+			"path": "recipe/copper_ingot.json"
 		}
-		]
+	]
   }
 }

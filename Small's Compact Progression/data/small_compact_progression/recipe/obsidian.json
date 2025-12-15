@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    "ese",
+    "eqe",
     "qmq",
-    "ese"
+    "ebe"
   ],
   "key": {
     "e": "minecraft:lapis_block",
     "m": "minecraft:magma_block",
-    "q": "minecraft:quartz_block",
-    "s": "minecraft:smooth_stone"
+    "q": "minecraft:smooth_quartz",
+    "b": "minecraft:blaze_powder"
   },
   "result": {
     "id": "minecraft:obsidian"

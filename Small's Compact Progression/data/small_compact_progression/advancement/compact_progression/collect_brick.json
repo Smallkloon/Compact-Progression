@@ -5,7 +5,7 @@
       "id": "minecraft:brick"
     },
     "title": "Just Another Brick in the Wall",
-    "description": "Fire a clay block into a brick using the campfire",
+    "description": "Fire a clay ball into a brick using the campfire",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

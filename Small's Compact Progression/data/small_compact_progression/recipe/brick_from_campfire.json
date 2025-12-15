@@ -1,7 +1,7 @@
 {
   "type": "minecraft:campfire_cooking",
   "category": "misc",
-  "ingredient": "minecraft:clay",
+  "ingredient": "minecraft:clay_ball",
   "result": {
     "id": "minecraft:brick"
   },

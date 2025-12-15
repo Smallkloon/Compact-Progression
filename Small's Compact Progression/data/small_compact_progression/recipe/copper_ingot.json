@@ -2,14 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:gold_nugget",
-    "minecraft:gold_nugget",
-    "minecraft:gold_nugget",
+    "minecraft:copper_nugget",
     "minecraft:copper_nugget",
     "minecraft:copper_nugget",
     "minecraft:copper_nugget"
   ],
   "result": {
-    "id": "minecraft:gold_ingot"
+    "id": "minecraft:copper_ingot"
   }
 }

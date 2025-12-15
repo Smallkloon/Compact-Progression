@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/plant_seed",
+  "display": {
+    "icon": {
+      "id": "minecraft:lead"
+    },
+    "title": "Lead the Way",
+    "description": "Craft a lead using leather and string to begin your animal farm",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_lead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lead"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_lead"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

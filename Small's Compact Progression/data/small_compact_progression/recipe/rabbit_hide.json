@@ -1,16 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "pl ",
-    "lpl",
-    " lp"
+  "ingredients": [
+    "minecraft:leather",
+    "minecraft:leather",
+    "minecraft:paper",
+    "minecraft:paper"
   ],
-  "key": {
-    "l": "minecraft:leather",
-    "p": "minecraft:paper"
-  },
   "result": {
     "id": "minecraft:rabbit_hide"
   }
-}
+} 

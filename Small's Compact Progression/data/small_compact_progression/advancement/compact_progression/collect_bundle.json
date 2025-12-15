@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_flint",
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle"
+    },
+    "title": "Bundle Pun TBD",
+    "description": "Craft a bundle, early game inventory management.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bundle"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_bundle"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

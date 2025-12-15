@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/collect_furnace",
+  "display": {
+    "icon": {
+      "id": "minecraft:brush"
+    },
+    "title": "This Belongs in a Museum!",
+    "description": "Craft a brush to sift for gold near ruins",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_brush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brush"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_brush"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "small_compact_progression:compact_progression/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
+    },
+    "title": "Not to be Confused with Wood",
+    "description": "Fell a tree to collect logs",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected_oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collected_oak_log"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
